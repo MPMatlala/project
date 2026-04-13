@@ -28,7 +28,7 @@ namespace Part_1
                 Bitmap resized = new Bitmap(image, new Size(width, height));
 
                 // Default color for the ASCII characters
-                Console.ForegroundColor = ConsoleColor.Cyan;
+                Console.ForegroundColor = ConsoleColor.Red;
                 string asciiChars = "@#S%?*+;:,. ";
 
                 // Start drawing by height
