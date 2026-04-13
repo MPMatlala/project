@@ -32,6 +32,7 @@ namespace Part_1
                 }
                 else
                 {
+                    // If the file is not found, display a warning message and continue with the text greeting
                     Console.ForegroundColor = ConsoleColor.Magenta;
                     Console.WriteLine("[!] Voice file not found. Continuing with text greeting...");
                     Console.WriteLine("[!] Place your greet.wav file in the project folder");
