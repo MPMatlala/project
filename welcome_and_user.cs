@@ -53,7 +53,7 @@ namespace Part_1
                 if (string.IsNullOrWhiteSpace(username))  // No input or just spaces
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine("✗ You didn't enter anything. Please enter a valid name.");
+                    Console.WriteLine("✗ Sorry You didn't enter anything. Please enter a valid name.");
                     Console.ResetColor();
                 }
                 else if (username.Length < 2)  // Only one character or less
