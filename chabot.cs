@@ -21,6 +21,7 @@ namespace Part_1
             question.Add("whats your purpose");
             question.Add("what can i ask you about");
 
+            // Corresponding responses for the predefined questions
             respond.Add("To create a safe password you need to create one containing at least a number and special characters.");
             respond.Add("Phishing is a type of online scam where attackers try to trick you into revealing sensitive information like your password or even credit card details.");
             respond.Add("I'm a chatbot here to help and assist you with cybersecurity-related questions.");
