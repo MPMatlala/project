@@ -27,7 +27,7 @@ namespace Part_1
                     voice_play.Play();
                     voice_play.PlaySync();
                     Console.ForegroundColor = ConsoleColor.Green;
-                    Console.WriteLine("[✓] Voice greeting playing...");
+                    Console.WriteLine("[✓] Voice greeting is now playing...");
                     Thread.Sleep(2000);
                 }
                 else
