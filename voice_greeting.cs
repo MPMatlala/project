@@ -32,7 +32,7 @@ namespace Part_1
                 }
                 else
                 {
-                    Console.ForegroundColor = ConsoleColor.Yellow;
+                    Console.ForegroundColor = ConsoleColor.Magenta;
                     Console.WriteLine("[!] Voice file not found. Continuing with text greeting...");
                     Console.WriteLine("[!] Place your greet.wav file in the project folder");
                     Thread.Sleep(2000);
