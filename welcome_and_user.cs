@@ -41,7 +41,7 @@ namespace Part_1
                 Console.ForegroundColor = ConsoleColor.DarkYellow;
                 Console.Write("\n🤖 CyberGuard: ");
                 Console.ForegroundColor = ConsoleColor.White;
-                Console.WriteLine("Hello! May I know your name?");
+                Console.WriteLine("Hello! May i please know your name?");
                 Console.ResetColor();
 
                 Console.ForegroundColor = ConsoleColor.Yellow;
